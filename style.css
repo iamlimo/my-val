@@ -12,6 +12,11 @@ body{
   width: 150px;
   padding: 5px;
   font-size: 30px;
+  
+}
+
+#butty{
+  display: none;
 }
 
 #buttons{

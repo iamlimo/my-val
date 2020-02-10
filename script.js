@@ -12,3 +12,14 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+
+function showBut(){
+  document.getElementById("butty").style.display = "inline-block";
+
+}
+setTimeout(showBut, 30000)
+
+function myFunction() {
+  location.replace("/congrats.html")
+}
