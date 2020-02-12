@@ -94,3 +94,28 @@ header {
   bottom: -8px;
   left: -8px; */
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    header video {
+      position: absolute;
+      top: 9%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      transform: translateX(-50%) translateY(-10%);
+  }
+
+  #buttons {
+    position: absolute;
+    left: 105px;
+    top: 75% !important;
+}
+
+}
