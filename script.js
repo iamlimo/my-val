@@ -21,5 +21,5 @@ function showBut(){
 setTimeout(showBut, 30000)
 
 function myFunction() {
-  location.replace("/congrats.html")
+  location.replace("https://github.com/iamlimo/my-val/blob/master/congrats.html")
 }
